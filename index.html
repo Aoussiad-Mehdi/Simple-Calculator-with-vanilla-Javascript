@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <div class="output1"></div>
+            <div class="output2"></div>
+            <div class="output3"></div>
+        </div>
+        <div class="buttons">
+
+            <div class="section1">
+                <input id="number" type="button" value="1">
+                <input id="number" type="button" value="2">
+                <input id="number" type="button" value="3">
+                <input id="operator" type="button" value="+">
+            </div>
+
+            <div class="section2">
+                <input id="number" type="button" value="4">
+                <input id="number" type="button" value="5">
+                <input id="number" type="button" value="6">
+                <input id="operator" type="button" value="-">
+            </div>
+            <div class="section3">
+                <input id="number" type="button" value="7">
+                <input id="number" type="button" value="8">
+                <input id="number" type="button" value="9">
+                <input id="operator" type="button" value="*">
+            </div>
+
+            <div class="section4">
+                <input id="clear" type="button" value="C">
+                <input id="number" type="button" value="0">
+                <input id="operator" type="button" value="/">
+            </div>
+            <div class="section5">
+                <input type="button" value="=" onclick="result()" class="equal">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

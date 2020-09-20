@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    width: 320px;
+    height: 400px;
+    background: crimson;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.screen{
+    width: 93%;
+    height: 78px;
+    background: rgb(61, 60, 60);
+    margin: 10px 0;
+    color: white;
+    display: flex;
+    padding: 17px 10px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.output1{
+    width: auto;
+    height: 70px;
+    overflow: auto;
+    padding: 10px 3px;
+}
+.output2{
+    width: auto;
+    height: 70px;
+    overflow: auto;
+    padding: 10px 3px;
+}
+.output3{
+    width: auto;
+    height: 70px;
+    overflow: auto;
+    padding: 10px 3px;
+}
+.buttons{
+    width: 93%;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+}
+input[type="button"]{
+    padding: 14px 26px;
+    margin: 4px 3px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: #fff;
+}
+input[type="button"]:active{
+    background: crimson;
+    color: #fff;
+}
+.section5 .equal{
+    width: 96%;
+    background: rgb(61, 60, 60);
+    color: #fff;
+}
